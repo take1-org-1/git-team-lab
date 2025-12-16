@@ -1,0 +1,10 @@
+# -----------------------------
+# stack owners
+# -----------------------------
+/kita-s3/dev/teamA/  @take1-org-1/teamA
+/kita-s3/dev/teamB/  @take1-org-1/teamB
+
+# -----------------------------
+# module owners（共通）
+# -----------------------------
+/kita-s3/modules/    @take1-org-1/platform
