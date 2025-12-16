@@ -29,8 +29,8 @@ variable "common_tags" {
 }
 
 
-variable "bucket_names" {
-  type        = list(string)
+variable "bucket_name" {
+  type        = string
   description = "S3バケット名のリスト"
 }
 

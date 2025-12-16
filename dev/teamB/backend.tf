@@ -12,10 +12,10 @@ terraform {
   backend "s3" {
     bucket = "take1-tfstate-bucket"
     #key     = "take1-project-dev.tfstate"
-    key = "tfstate/kita-s3/kita-s3.tfstate"
+    key = "tfstate/kita-s3b/kita-s3.tfstate"
     #key            = "tfstate/take1-project/kita-s3/kita-s3.tfstate"
     region  = "us-east-1"
-    profile = "kitaPrivate"
+    profile = "kita-sso"
     #dynamodb_table = "take1-terraform-lock"
     use_lockfile = true
   }

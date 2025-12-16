@@ -1,5 +1,5 @@
 project     = "take1"
-environment = "dev"
+environment = "dev-teamB"
 domain      = "*.take-one.link"
 name_prefix = "take1"
 
@@ -9,7 +9,5 @@ tags = {
   Owner   = "dev-team"
 }
 
-bucket_names = [
-  "take1-codebuild-src",
-  "take1-codebuild-output"
-]
+bucket_name = "take1-team-b"
+
