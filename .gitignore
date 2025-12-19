@@ -1,5 +1,8 @@
 /dev/teamA/backend.tf
 /dev/teamB/backend.tf
+
+/dev/teamA/backend.tf
+/dev/teamB/backend.tf
 /dev/teamA/backend.tf
 *.tfstate
 *.tfstate.*
